@@ -19,7 +19,7 @@ def spi(num):
         
         }
         
-        return spi{num}
+        return "spi" {num}
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaf(C):
