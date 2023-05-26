@@ -6,7 +6,7 @@ app=FastAPI()
 def index():
     return "hola a todos "
 @app.get("/tortas/{num}")
-def dav(num):
+def tortas(num):
     tortas={
     1"jamon"
       2"milanes"
