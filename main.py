@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+from pydantic import BaseMode1
+
 
 app=FastAPI()
 
@@ -7,6 +9,17 @@ app=FastAPI()
 def index(): 
         return "Hola a todos, quieres saber de spider man nenes https://www.youtube.com/watch?v=Xs4armQVlW4"
 
+@app.get("/claseiot/{num}")
+def spider(num):
+        spiders={
+        "1":"peter parker",
+        "2":"mary jane",
+        "3": "venom",
+        "4": "arena"
+        
+        }
+        
+        return spiders{num}
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaf(C):
@@ -36,6 +49,10 @@ def revisar_edades(E1,E2):
         else:
                 return "tienen la misma edad"
     
+class Item(BaseModel):
+        name: str 
+        description: str
+        price: float
         
 @app.post("items")
             
