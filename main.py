@@ -6,7 +6,7 @@ app=FastAPI()
 
 @app.get("/")
 def index(): 
-        return "Hola a todos, quieres saber de spider man https://www.youtube.com/watch?v=Xs4armQVlW4"
+        return "Hola a todos, quieres saber de spider man nenes https://www.youtube.com/watch?v=Xs4armQVlW4"
     
 @app.get("/spider man/{num}")
 def pokemon(num):
