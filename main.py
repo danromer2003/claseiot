@@ -11,6 +11,7 @@ def index():
 
 @app.get("/claseiot/{num}")
 def spi(num):
+        return num
         spi={
         "1":"peter parker",
           "2":"mary jane",
