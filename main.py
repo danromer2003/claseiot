@@ -13,9 +13,9 @@ def index():
 def spi(num):
         spi={
         "1":"peter parker",
-        "2":"mary jane",
-        "3": "venom",
-        "4": "arena"
+          "2":"mary jane",
+            "3": "venom",
+              "4": "arena"
         
         }
         
