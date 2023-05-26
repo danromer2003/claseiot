@@ -14,8 +14,8 @@ def spider(num):
         spiders={
         "1":"peter parker",
         "2":"mary jane",
-        "3":"venom",
-        "4":"arena",
+        "3": "venom",
+        "4": "arena"
         
         }
         return spiders{num}
