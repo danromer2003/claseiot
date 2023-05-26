@@ -18,7 +18,6 @@ def spi(num):
               "4": "arena"
         
         }
-        
         return spi {num}
 
 @app.get("/Conversor_CaF/{C}")
