@@ -9,7 +9,7 @@ app=FastAPI()
 def index(): 
         return "Hola a todos, quieres saber de spider man nenes https://www.youtube.com/watch?v=Xs4armQVlW4"
 
-@app.get("/claseiot/{num}")
+@app.get("/danromer2003/{num}")
 def spi(num)
         spi={
         "1":"peter parker",
