@@ -8,7 +8,7 @@ def index():
 @app.get("/pizza/{num}")
 def pizzas(num):
     pizzas={
-     1"hawaiana"
+     
       2"pepperoni"
         3"queso"
         4"pollo"
