@@ -9,7 +9,7 @@ def index():
         return "Hola a todos, quieres saber de spider man nenes https://www.youtube.com/watch?v=Xs4armQVlW4"
     
 @app.get("/spider man/{num}")
-def spider man (num):
+def spiders (num):
         spiders={
         "1":"peter parker",
         "2":"mary jane",
