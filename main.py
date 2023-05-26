@@ -8,16 +8,16 @@ app=FastAPI()
 def index(): 
         return "Hola a todos, quieres saber de spider man"
     
-@app.get("/Pokemon/{num}")
+@app.get("/spider man/{num}")
 def pokemon(num):
-        pokemons={
-        "1":"Bulbasur",
-        "2":"Ivysaur",
-        "3":"Venasur",
-        "4":"Charmander",
+        spiders={
+        "1":"peter parker",
+        "2":"mary jane",
+        "3":"venom",
+        "4":"arena",
         
         }
-        return pokemons{num}
+        return spiders{num}
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaf(C):
