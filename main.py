@@ -10,8 +10,8 @@ def index():
         return "Hola a todos, quieres saber de spider man nenes https://www.youtube.com/watch?v=Xs4armQVlW4"
 
 @app.get("/claseiot/{num}")
-def spider(num):
-        spiders={
+def spi(num):
+        spi={
         "1":"peter parker",
         "2":"mary jane",
         "3": "venom",
@@ -19,7 +19,7 @@ def spider(num):
         
         }
         
-        return spiders{num}
+        return spi{num}
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaf(C):
